@@ -4,7 +4,7 @@
   "description": "My setup for redbird proxy with custom resolvers for subfolders. TODO: Normal resolvers also.",
   "main": "proxy.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node proxy.js"
   },
   "author": "Draedr",
   "license": "ISC",
