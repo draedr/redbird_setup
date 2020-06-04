@@ -10,7 +10,7 @@ var flbk = require('./flbk');
 require('dotenv').config();
 
 // Directory where the certificates are stored
-const CERTDIR = flbk(process.env.CERTDIR, _dirname + '/certs');
+const CERTDIR = flbk(process.env.CERTDIR, __dirname + '/certs');
 
 // Proxy general Settings
 var proxySettings = {
